@@ -201,7 +201,7 @@ Adds a new food entry.
 ![Unauthorized](screenshots/Test_Unauthorized.png)
 
 **Non-existent food — 404 Not Found**
-![Not found](screenshots/test-not-found.png)
+![Not found](screenshots/Food_Id_Not_Found.png)
 
 ## Developer Information
 
