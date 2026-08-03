@@ -48,7 +48,7 @@ function getDB(): PDO
 // APP SETUP
 // -----------------------------------------------------------------------
 $app = AppFactory::create();
-$app->setBasePath('/filipino-cookbook-api/public');
+$app->setBasePath('/' . basename(dirname(__DIR__)) . '/public');
 $app->addBodyParsingMiddleware();
 $app->addRoutingMiddleware();
 $app->addErrorMiddleware(true, true, true);
